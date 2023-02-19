@@ -1,22 +1,22 @@
 body {
-  background-color: #f9f9f9;
+  background-color: #78b2c4;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .player {
-  background-color: #fff;
+  background-color:#1088a0;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
   margin: 50px auto;
   max-width: 600px;
-  text-align: center;
+  text-align: left;
   padding: 20px;
 }
 
 h1 {
-  color: #333;
+  color: #cfad89;
   font-size: 2rem;
   margin: 0;
 }
@@ -33,4 +33,22 @@ iframe {
   margin: 0 auto;
   width: 100%;
   height: 315px;
+}
+
+.title {
+  background-color: #0077be;
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  position: relative;
+
+}
+
+.title h1 {
+  font-size: 3rem;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-100%, -50%);
 }
